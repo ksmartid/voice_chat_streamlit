@@ -13,12 +13,12 @@ from audiorecorder import audiorecorder
 from datetime import datetime
 
 # Open AI API 키 설정하기
-from dotenv import load_dotenv
+
 
 # 음원 파일 재생을 위한 패키지 추가
 import base64
 
-load_dotenv()
+
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
